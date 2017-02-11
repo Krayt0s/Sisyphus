@@ -75,6 +75,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ArrowController.cs" />
+    <Compile Include="Assets\Scripts\Boulder\BoulderPlayer.cs" />
+    <Compile Include="Assets\Scripts\HillTopCollider.cs" />
+    <Compile Include="Assets\Scripts\Sisyphus\Archer.cs" />
     <Compile Include="Assets\Scripts\Sisyphus\Sisyphus.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
